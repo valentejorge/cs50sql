@@ -1,0 +1,1 @@
+SELECT COUNT("english_title") AS 'Hokusai Fuji Titles' FROM "views" WHERE "artist" = 'Hiroshige' AND "english_title" LIKE '%Eastern Capital%';

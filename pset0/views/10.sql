@@ -1,0 +1,1 @@
+SELECT "english_title" AS 'Title', "artist", "average_color" FROM "views" WHERE "average_color" LIKE '%f' AND "title" LIKE '%in%' ORDER BY "artist" LIMIT 2;
